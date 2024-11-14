@@ -1,0 +1,22 @@
+# env
+.vscode
+/logs/*.log
+/log
+/upload/*.png
+/upload/*.mp3
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+yarn.lock
+package-lock.json
+build
+dist
+
+node_modules/
+jspm_packages/
+
+.env
+.env.test
+.env.production
+/src/config/serviceKey.json
